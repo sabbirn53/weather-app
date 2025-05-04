@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, JSX } from "react";
 import axios from "axios";
 import {
   IoMdSunny,
@@ -27,7 +27,7 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
   const [animate, setAnimate] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [errorMsg, setErrorMsg] = useState("");
+  const [errorMsg, setErrorMsg] = useState<any>("");
   const [darkMode, setDarkMode] = useState(
     () => localStorage.getItem("theme") === "dark"
   );
