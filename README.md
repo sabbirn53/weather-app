@@ -2,7 +2,9 @@
 
 A modern, responsive weather application built with **React**, **TypeScript**, **Tailwind CSS**, and **Axios**. This app allows users to search for a city and view current weather conditions including temperature, humidity, visibility, and more. It features **light/dark mode toggle** and animated UI elements.
 
-![Weather App Screenshot](./screenshot.png)
+![Weather App Screenshot]
+![681821d20401b818313abe0e](https://github.com/user-attachments/assets/0414d508-9b10-4c89-be78-1729dc9517be)
+
 
 ## 🚀 Features
 
